@@ -1,0 +1,188 @@
+* {
+    margin         : 0;
+    padding        : 0;
+    box-sizing     : border-box;
+    text-decoration: none !important;
+    list-style     : none !important;
+}
+
+body {
+    background-color: #2d2013 !important;
+
+}
+
+.container {
+    width: 1200px;
+    color: #fff;
+}
+
+.welcomeToMeal {
+
+    display        : flex;
+    justify-content: space-around;
+    text-align     : center;
+    color          : #fff;
+    margin         : 50px 0;
+}
+
+.text_header {
+    font-size      : 13.5px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.text_header p {
+    margin: 3px;
+}
+
+.brown {
+    color: #d57d1f;
+}
+
+.brown:hover {
+    color: #ffcb69;
+}
+
+.paypal_logo {
+    width: 35%;
+}
+
+.btn_header {
+    display         : flex;
+    align-items     : center;
+    justify-content : space-around;
+    width           : 25%;
+    background-color: #ffc439;
+    font-size       : 13px;
+    padding         : 5px;
+    border          : none;
+    border-radius   : 3px;
+}
+
+.btn_header:hover {
+    background-color: #f8bd36;
+}
+
+/* ? Latest Meals */
+
+.line {
+    margin-top: 40px;
+    border-top: 2px solid #fff;
+}
+
+.text_center {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.images {
+    display              : grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap                  : 5px;
+    
+}
+.wrap{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img img {
+    width : 90%;
+    cursor: pointer;
+
+}
+
+.img {
+    text-align: center;
+    color     : #d57d1f;
+}
+
+.img:hover p {
+    color     : #ffc439;
+    cursor    : pointer;
+    transition: .3s;
+}
+
+#footer {
+    background-color: #23180d;
+}
+
+.footer {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    padding        : 15px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer_menu a {
+    color: #fff;
+}
+
+.footer_menu {
+    display: flex;
+    gap    : 15px;
+}
+
+.footer img {
+    cursor: pointer;
+    gap   : 20px;
+}
+
+.footer_menu a:hover {
+    color     : rgb(255, 77, 0);
+    transition: .3s;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.meal {
+    width: 100%;
+}
+.meal img {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.meal Button {
+    width: 50%;
+    margin: 20px 0;
+}
+
+.ingredients{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+    text-align: center;
+}
+
+.ingredientt{
+    cursor: pointer;
+}
+.ingredientt img {
+    width: 90%;
+}
+
+.ingredientt p{
+    color: #d57d1f;
+}
+
+.ingredientt:hover p {
+    color     : #ffc439;
+    cursor    : pointer;
+    transition: .3s;
+}
+
+.instuc{
+    text-align: center;
+    margin: 20px 0;
+}
